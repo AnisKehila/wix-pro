@@ -24,6 +24,4 @@
 
 // });
 
-
-
 //window.location = $(".article-box").data("location");

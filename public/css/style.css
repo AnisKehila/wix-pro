@@ -432,7 +432,7 @@ h1#reg-header {
 .article h1,.comments h3,.postcomment h1{
     color : #536942;
 }
-.article h2,.comments h3,.comments h4 {
+.article .colored,.comments h3,.comments h4 {
     color : #dab200;
     font-size: medium;
 }
@@ -495,4 +495,8 @@ h1#reg-header {
 
 .card {
     margin-bottom: 5vh;
+}
+#cmntErr {
+    text-align: center;
+    color: red;
 }

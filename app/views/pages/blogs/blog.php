@@ -11,9 +11,7 @@
                         <?php echo $post->article_title ?>
                     </h1>
                 </div>
-
             </div>
-
             <h3>
                 Created at <?php echo $post->created_at ?>
             </h3>
@@ -28,7 +26,7 @@
                 <?php echo $articlesum ?>
             </p>
             </div>
-            <a href="?article=<?php echo $post->article_id ?>"><button class="btn btn-outline-warning fw-bold">Read more >></button></a>
+            <a href="<?php echo URLROOT ?>/blogs/article/<?php echo $post->article_id ?>"><button class="btn btn-outline-warning fw-bold">Read more >></button></a>
         </div>
     <?php endforeach ?>
 </div>

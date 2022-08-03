@@ -61,6 +61,9 @@
 .article .txt {
     max-width: 80%;
     padding: 20px 40px;
+    margin: inherit;
+    text-align: justify;
+    line-height: 2.25;
 }
 .postcomment #btn, .form-container #sbmt-btn {
     background-color: #ffd936;
@@ -93,4 +96,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+#cmntErr {
+    text-align: center;
+    color: red;
 }
